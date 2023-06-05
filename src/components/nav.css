@@ -1,0 +1,14 @@
+.nav-container{
+    width:100%;
+    height:auto;
+    margin:0px var(--page-wide-margin);
+    display:flex;
+    
+}
+.nav-logo{
+    padding-top:8px;
+    height: 4vmin;
+    width: 4vmin;
+    font-family:satoshiB;
+    font-size: 3vmin;
+}

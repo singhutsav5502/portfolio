@@ -1,0 +1,15 @@
+@font-face{
+    font-family: satoshiB;
+    src: url('../public/fonts/Satoshi-Bold.woff');
+}
+:root{
+    --page-wide-margin:120px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
