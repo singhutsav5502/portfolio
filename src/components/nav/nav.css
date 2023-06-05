@@ -41,7 +41,7 @@
     width: 100%;
     background-color: var(--primary-text-color);
     transform: scaleX(0);
-    transition:0.3s transform cubic-bezier(.09,.47,.97,.57);
+    transition:0.3s transform ease-in-out;
     transform-origin:bottom right;
 }
 .nav-link-container a:hover span{
