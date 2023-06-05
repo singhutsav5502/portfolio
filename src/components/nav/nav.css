@@ -10,24 +10,55 @@
 }
 .nav-logo,.nav-current-status, .nav-link-container, .nav-mail-container{
     padding:1.5rem 0px;
-    font-size: 2vmin;
+    font-size: 1.7vmin;
     color:var(--primary-text-color);
 }
 .nav-current-status, .nav-link-container, .nav-mail-container{
+    margin:0px 16px;
     display: flex;
     align-items: center;
-    font-family: interB;
-    
+    font-family: interM;
+}
+.nav-logo{
+    font-size: 2.4vmin;
+    font-family:satoshiB;
+    user-select: none;
 }
 .nav-current-status{
     flex-basis: 50%;
 }
 .nav-link-container a , .nav-mail-container a , .nav-mail-container a:visited , .nav-link-container a:visited{
+    margin:0px 2px;
+    position: relative;
     text-decoration: none;
     color:var(--primary-text-color);
 }
-.nav-logo{
-    font-size: 2vmin;
-    font-family:satoshiB;
-    font-weight: bold;
+.nav-link-container a span , .nav-mail-container a span{
+    position: absolute;
+    top:100%;
+    left:0%;
+    height: 1px;
+    width: 100%;
+    background-color: var(--primary-text-color);
+    transform: scaleX(0);
+    transition:0.3s transform cubic-bezier(.09,.47,.97,.57);
+    transform-origin:bottom right;
+}
+.nav-link-container a:hover span{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#mail-line-1{
+    transform: scaleX(1);
+    transition:0.25s transform ease-in-out;
+}
+#mail-line-2{
+    transform-origin: bottom left;
+    transition:0.25s transform ease-in-out 0.125s;
+}
+.nav-mail-container a:hover #mail-line-1{
+    transform:scaleX(0);
+}
+.nav-mail-container a:hover #mail-line-2{
+    transform:scaleX(1);
 }
