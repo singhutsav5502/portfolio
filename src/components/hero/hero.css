@@ -1,6 +1,6 @@
 .hero-over-container {
     position: relative;
-    
+    overflow: hidden;
 }
 
 .hero-blob-container {
@@ -9,35 +9,41 @@
     overflow: hidden;
     filter: blur(10px);
 }
-.hero-grain-overlay{
+
+.hero-grain-overlay {
     height: 100%;
     width: 100%;
     position: absolute;
- 
+
 }
+
 #blob1,
 #blob2,
 #blob3 {
     opacity: 0.8;
     z-index: 2;
 }
+
 #blob4,
-#blob5{
+#blob5 {
     opacity: 0.45;
     z-index: 1;
 }
-#blobSvg{
+
+#blobSvg {
     position: absolute;
-    left:-20%;
-    top:-10%;
+    left: -20%;
+    top: -10%;
     transform: rotate(45deg);
 }
-#blobSvg2{
+
+#blobSvg2 {
     position: absolute;
     transform: scale(1.03);
-    top:-10%;
-    right:-40%;
+    top: -10%;
+    right: -40%;
 }
+
 .stop1 {
     stop-color: #FBCBE8;
 }
@@ -72,13 +78,18 @@
     font-size: 6vmin;
     font-family: interB;
 }
-
-.hero-title {
+.hero-title{
+    font-family: 'Unbounded';
+}
+.hero-title,.hero-title-2 {
     line-height: 0.9;
 }
-
+.hero-title-2{
+    font-size: 8vmin;
+}
 .hero-subtitle {
-    padding-top: 4vmin;
+    margin-top: 8vmin;
+    margin-left: 1.5vmin;
     font-family: interM;
     font-size: 4vmin;
     width: 45%;
@@ -88,6 +99,8 @@
     position: relative;
     overflow: hidden;
     height: 14vmin;
+    margin-top: 10vmin;
+    margin-left: 1.75vmin;
 }
 
 .hero-call-to-action,
@@ -113,6 +126,7 @@
 }
 
 .hero-call-to-action2 {
+    margin-top: 0%;
     top: 100%;
     position: absolute;
     width: 100%;
@@ -122,5 +136,21 @@
 }
 
 .hero-call-to-action:hover .hero-call-to-action2 {
-    top: -85%;
+    top: 0%;
+}
+
+.arrows {
+    position: absolute;
+    width: 60px;
+    height: 72px;
+    left: 50%;
+    bottom:-5%;
+    transform: translate(-50%,-50%);
+}
+
+.arrows path {
+    stroke: #000000;
+    fill: transparent;
+    stroke-width: 1px;
+
 }

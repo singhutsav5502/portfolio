@@ -15,7 +15,7 @@ const Nav = () => {
                     <a href="#"><p>About</p><span className="nav-link-line"></span></a>
                 </div>
                 <div className="nav-mail-container">
-                    <a href="#"><p>hello@utsav.com</p>
+                    <a href="mailto:singhutsavofficial@gmail.com"><p>hello@utsav.com</p>
                         <span id="mail-line-1"></span>
                         <span id="mail-line-2"></span>
                     </a>
