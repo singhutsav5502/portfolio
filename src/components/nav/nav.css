@@ -1,8 +1,10 @@
 .nav-container{
+    z-index:11;
     background: transparent;
+    /* position: absolute; */
     width:90%;
     height:auto;
-    margin:0px var(--page-wide-margin) 0px var(--page-wide-margin) ;
+    padding:0px var(--page-wide-margin) 0px var(--page-wide-margin) ;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -62,4 +64,10 @@
 }
 .nav-mail-container a:hover #mail-line-2{
     transform:scaleX(1);
+}
+.nav-container.dark{
+    background-color:#000000;
+}
+span.dark{
+    color:white;
 }
