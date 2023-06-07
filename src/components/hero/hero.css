@@ -1,0 +1,126 @@
+.hero-over-container {
+    position: relative;
+    
+}
+
+.hero-blob-container {
+    position: relative;
+    height: 93vh;
+    overflow: hidden;
+    filter: blur(10px);
+}
+.hero-grain-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+ 
+}
+#blob1,
+#blob2,
+#blob3 {
+    opacity: 0.8;
+    z-index: 2;
+}
+#blob4,
+#blob5{
+    opacity: 0.45;
+    z-index: 1;
+}
+#blobSvg{
+    position: absolute;
+    left:-20%;
+    top:-10%;
+    transform: rotate(45deg);
+}
+#blobSvg2{
+    position: absolute;
+    transform: scale(1.03);
+    top:-10%;
+    right:-40%;
+}
+.stop1 {
+    stop-color: #FBCBE8;
+}
+
+.stop2 {
+    stop-color: #52B2FF;
+}
+
+.stop3 {
+    stop-color: #ff8fab;
+}
+
+.stop4 {
+    stop-color: rgb(255, 179, 50);
+}
+
+.hero-container {
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    padding-top: 4vmin;
+    width: 90%;
+    margin: 0px var(--page-wide-margin) 0px var(--page-wide-margin);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.hero-title-container {
+    font-size: 6vmin;
+    font-family: interB;
+}
+
+.hero-title {
+    line-height: 0.9;
+}
+
+.hero-subtitle {
+    padding-top: 4vmin;
+    font-family: interM;
+    font-size: 4vmin;
+    width: 45%;
+}
+
+.hero-call-to-action-container {
+    position: relative;
+    overflow: hidden;
+    height: 14vmin;
+}
+
+.hero-call-to-action,
+.hero-call-to-action:visited,
+.hero-call-to-action2 {
+    position: relative;
+    text-decoration: none;
+    margin-top: 5vmin;
+    font-size: 2vmin;
+    width: 20%;
+    height: 6vmin;
+    background-color: white;
+    color: var(--primary-text-color);
+    font-family: interM;
+    border-radius: 30%;
+    border-radius: 4vmin;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-call-to-action2 {
+    top: 100%;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    transition: 0.45s all cubic-bezier(.21, .04, 1, .81);
+}
+
+.hero-call-to-action:hover .hero-call-to-action2 {
+    top: -85%;
+}
