@@ -132,7 +132,7 @@
     width: 100%;
     color: #fff;
     background-color: #000;
-    transition: 0.45s all cubic-bezier(.21, .04, 1, .81);
+    transition: 0.2s all cubic-bezier(.21, .04, 1, .81);
 }
 
 .hero-call-to-action:hover .hero-call-to-action2 {
