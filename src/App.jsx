@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Nav from './components/nav/nav'
 import NavD from './components/nav/navD'
 import Hero from './components/hero/hero'

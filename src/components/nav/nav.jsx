@@ -9,8 +9,8 @@ const Nav = () => {
         gsap.to('.nav-container', {
             scrollTrigger: {
                 trigger: '#hero',
-                start: "50% 50%",
-                end: '100% 50%',
+                start: "5% 0%",
+                end: '5% 2%',
                 scrub:2,
                 pin: false
             },
