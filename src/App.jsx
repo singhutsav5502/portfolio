@@ -13,7 +13,7 @@ function App() {
     <>
       {isDark ? <NavD /> : <Nav />}
       {isDark ? <HeroD /> : <Hero />}
-      {/* <Skills /> */}
+      <Skills />
     </>
   )
 }

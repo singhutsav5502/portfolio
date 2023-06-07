@@ -13,15 +13,11 @@ const HeroD = () => {
                 left: `${clientX}px`,
                 top: `${clientY}px`
             }, { duration: 3000, fill: "forwards" });
-            // blob.style.left = `${clientX}px`;
-            // blob.style.top = `${clientY}px`;
-            // blob.style.setProperty('--mouse-x' , `${clientX}px`)
-            // blob.style.setProperty('--mouse-y' , `${clientY}px`)
         }
     })
     return (
         <>
-            <div className="hero-over-container">
+            <div className="hero-over-container" id="hero">
                 <div className="hero-back" ></div>
                 <div className="hero-container dark">
                     <div className="hero-title-container dark">

@@ -13,7 +13,7 @@ const Hero = () => {
                     </filter>
                 </defs>
             </svg>
-            <div className="hero-over-container">
+            <div className="hero-over-container" id="hero">
                 <div className="hero-blob-container">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" style={{ opacity: 1 }}>
                         <defs>

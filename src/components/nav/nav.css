@@ -1,7 +1,9 @@
+
 .nav-container{
-    z-index:11;
+    z-index:15;
     background: transparent;
-    /* position: absolute; */
+    position: fixed;
+    top:-100%;
     width:90%;
     height:auto;
     padding:0px var(--page-wide-margin) 0px var(--page-wide-margin) ;

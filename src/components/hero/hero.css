@@ -5,7 +5,7 @@
 
 .hero-blob-container {
     position: relative;
-    height: 93vh;
+    height: 100vh;
     overflow: hidden;
     filter: blur(10px) url("#noise");
     
@@ -72,6 +72,7 @@
     z-index: 11;
     font-size: 6vmin;
     font-family: interB;
+    margin-top:10%;
 }
 
 .hero-title {
@@ -176,7 +177,7 @@
 
 .hero-back {
     background-color: var(--hero-back-color);
-    height: 93vh;
+    height: 100vh;
     width: 100%;
 }
 
