@@ -7,7 +7,7 @@ const Nav = () => {
                     <h4>utsav</h4>
                 </div>
                 <div className="nav-current-status">
-                    <p>Constantly Learning</p>
+                    <p>crafting immersive web experiences.</p>
                 </div>
                 <div className="nav-link-container">
                     <a href="#"><p>Projects,</p>  <span className="nav-link-line"></span></a>

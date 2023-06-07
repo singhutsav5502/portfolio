@@ -7,14 +7,7 @@
     position: relative;
     height: 93vh;
     overflow: hidden;
-    filter: blur(10px);
-}
-
-.hero-grain-overlay {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-
+    filter: blur(10px) url("#noise");
 }
 
 #blob1,
@@ -78,15 +71,20 @@
     font-size: 6vmin;
     font-family: interB;
 }
-.hero-title{
+
+.hero-title {
     font-family: 'Unbounded';
 }
-.hero-title,.hero-title-2 {
+
+.hero-title,
+.hero-title-2 {
     line-height: 0.9;
 }
-.hero-title-2{
+
+.hero-title-2 {
     font-size: 8vmin;
 }
+
 .hero-subtitle {
     margin-top: 8vmin;
     margin-left: 1.5vmin;
@@ -144,8 +142,8 @@
     width: 60px;
     height: 72px;
     left: 50%;
-    bottom:-5%;
-    transform: translate(-50%,-50%);
+    bottom: -5%;
+    transform: translate(-50%, -50%);
 }
 
 .arrows path {

@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { gsap } from 'gsap'
 import Nav from './components/nav/nav'
 import Hero from './components/hero/hero'
+import Skills from './components/skills/skills'
 import './App.css'
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Skills />
     </>
   )
 }

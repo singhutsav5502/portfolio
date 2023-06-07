@@ -3,8 +3,17 @@ import './hero.css';
 const Hero = () => {
     return (
         <>
+            <svg style={{ display: 'none' }}>
+                <defs>
+                    <filter id="noise">
+                        <feTurbulence>
+                            <feTurbulence baseFrequency="0.7,0.8" seed="392" type="fractalNoise" result="static"/>
+                        </feTurbulence>
+                        <feDisplacementMap in="SourceGraphic" in2="static" scale="5"/>
+                    </filter>
+                </defs>
+            </svg>
             <div className="hero-over-container">
-
                 <div className="hero-blob-container">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" style={{ opacity: 1 }}>
                         <defs>
@@ -45,7 +54,7 @@ const Hero = () => {
                         <h1 className="hero-title-2">WEB DEVELOPER</h1>
                     </div>
                     <div className='hero-subtitle'>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae commodi dolorem fugiat nisi dolorum nam</p>
+                        <p>  I bring ideas to life With a keen eye for design and a dedication to clean code, and turn them into pixel-perfect realities.</p>
                     </div>
                     <div className="hero-call-to-action-container">
                         <a href="mailto:singhutsavofficial@gmail.com" alt="" className="hero-call-to-action">hello@utsav.com  <p className="hero-call-to-action2">Contact Me!</p></a>
