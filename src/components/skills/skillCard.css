@@ -13,6 +13,7 @@
     background-color: #0c0c0c4e;
     color: var(--primary-text-color-dark);
     transition: 0.3s all ease;
+    opacity:0;
 }
 
 .skillCard-container:hover {

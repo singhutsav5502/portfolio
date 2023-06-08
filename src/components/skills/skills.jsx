@@ -1,13 +1,26 @@
 import './skills.css';
 import SkillCard from './skillCard';
 import { useLayoutEffect } from 'react';
+import { gsap} from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 const Skills = () => {
-
+    useLayoutEffect(()=>{
+        gsap.to('.skillCard-container',{
+            scrollTrigger:{
+                trigger:'#hero',
+                start:'100% 80%',
+                end:"100% 82%",
+                scrub:2,
+            },
+            opacity:1
+        });
+    })
     return (
         <>
 
             <div className="skills-container" id="skills">
-                <div className="skills-container-title">SKILLS</div>
+                <div className="skills-container-title"><p className="skills-container-title-p">SKILLS</p></div>
                 {/* <div className="skills-grid-maker"> */}
                 <SkillCard title="HTML 5" logo="./HTML5.png">
                     {/* HTML5 is a markup language used for structuring and presenting content on the World Wide Web. */}

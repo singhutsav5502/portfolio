@@ -1,6 +1,6 @@
 
 .nav-container{
-    z-index:15;
+    z-index:99;
     background: transparent;
     position: fixed;
     top:-100%;
