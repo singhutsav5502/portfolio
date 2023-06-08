@@ -1,7 +1,7 @@
 .skills-container {
     padding-top: 8%;
     position: relative;
-    height: 130vh;
+    height: 100vh;
     width: 100vw;
     background-color: var(--hero-back-color);
     /* flex-wrap: wrap; */
