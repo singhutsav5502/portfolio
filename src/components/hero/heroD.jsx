@@ -4,17 +4,6 @@ import { useLayoutEffect, useRef } from 'react';
 
 
 const HeroD = () => {
-
-    useLayoutEffect(() => {
-        const blob = document.getElementById("blob");
-        document.body.onpointermove = event => {
-            const { clientX, clientY } = event;
-            blob.animate({
-                left: `${clientX}px`,
-                top: `${clientY}px`
-            }, { duration: 3000, fill: "forwards" });
-        }
-    })
     return (
         <>
             <div className="hero-over-container" id="hero">
@@ -38,8 +27,7 @@ const HeroD = () => {
                         <path className="a1" d="M0 0 L30 32 L60 0"></path>
                     </svg>
                 </a>
-                <div className="hero-radial-overlay" id="blob"></div>
-                <div id="hero-blob-blur"></div>
+
             </div>
 
         </>

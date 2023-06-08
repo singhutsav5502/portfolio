@@ -1,4 +1,19 @@
 .skills-container{
-    height: 101vh;
+    position: relative;
+    height: 130vh;
     width: 100vw;
+    background-color: var(--hero-back-color);
+}
+.skills-grid-maker{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 20vw 0vw 20vw;
+}
+.skills-back {
+    background-color: var(--hero-back-color);
+    height: 100vh;
+    width: 100%;
 }
