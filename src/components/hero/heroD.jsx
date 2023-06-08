@@ -21,7 +21,7 @@ const HeroD = () => {
 
                     </div>
                 </div>
-                <a href="#">
+                <a href="#skills">
                     <svg className="arrows dark">
 
                         <path className="a1" d="M0 0 L30 32 L60 0"></path>

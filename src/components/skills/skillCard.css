@@ -16,8 +16,10 @@
 }
 .skillCard-image{
     margin-top:8%;
+}
+.skillCard-image img{
     height: 200px;
-    width: 200px;
+    aspect-ratio: 1;
 }
 .skillCard-title{
     margin-top:10%;
