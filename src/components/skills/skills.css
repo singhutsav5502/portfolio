@@ -3,13 +3,24 @@
     height: 130vh;
     width: 100vw;
     background-color: var(--hero-back-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.skills-container-title{
+    position: absolute;
+    z-index:22;
+    top:25%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 48px;
+    font-family:"Unbounded";
+    color: var(--primary-text-color-dark);
 }
 .skills-grid-maker{
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
     margin:0 20vw 0vw 20vw;
 }
 .skills-back {
