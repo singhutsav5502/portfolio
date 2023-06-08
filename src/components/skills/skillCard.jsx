@@ -5,7 +5,7 @@ const SkillCard = (props)=>{
             <div className="skillCard-container">
 
                 <div className="skillCard-image">
-                    <img src={`${props.logo}?sanitize=true`} alt="" />
+                    <img src={`${props.logo}`} alt="" />
                 </div>
                 <div className="skillCard-title">
                     {props.title}
