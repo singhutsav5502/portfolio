@@ -19,14 +19,16 @@ function App() {
   })
   return (
     <>
-      <div className="app-back" ></div>
+
       <div className="app-container">
+        <div className="app-back" ></div>
         {<NavD />}
         {<HeroD />}
         <Skills />
         <div className="app-radial-overlay" id="blob"></div>
         <div id="app-blob-blur"></div>
       </div>
+
     </>
   )
 }

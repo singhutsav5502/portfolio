@@ -1,16 +1,26 @@
-.app-container{
-    position: absolute;
+.app-container {
+    position: relative;
     top: 0%;
     left: 0%;
     width: 100%;
-    z-index:11;
+    /* z-index: 24; */
     overflow: hidden;
 }
+
 .app-back {
-    background-color: var(--hero-back-color);
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    z-index:22;
+    background-color: transparent;
+    background-image: radial-gradient(rgba(61, 55, 55, 0.379) 9%, transparent 9%);
+    background-position: 0% 0%;
+    background-size: 5vmin 5vmin;
+    height: 200vh;
+    width: 100vw;
+
 }
+
 .app-radial-overlay {
 
     position: absolute;
@@ -35,4 +45,3 @@
     /* z-index: 2; */
     backdrop-filter: blur(200px);
 }
-
