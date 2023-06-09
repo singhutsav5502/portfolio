@@ -15,7 +15,11 @@
     transition: 0.3s all ease;
     opacity:0;
 }
-
+@media(max-width:801px){
+    .skillCard-container{
+        height: 25vh;
+    }
+}
 .skillCard-container:hover {
     transform: scale(1);
 }
