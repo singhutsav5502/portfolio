@@ -1,10 +1,16 @@
 import './ProjectCard.css'
 
 
-const ProjectCard = (props)=>{
-    return(
+const ProjectCard = (props) => {
+    return (
         <>
-        <img src={props.image} alt="" class="project-image" draggable="false" />
+            <section className="project-card">
+                <img src={props.image} alt="" className="project-image" draggable="false" />
+                <section className="project-image-description" draggable="false">
+                    <a href={props.github} ></a>
+                    <p>{props.title}</p>
+                </section>
+            </section>
         </>
     )
 }

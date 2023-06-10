@@ -44,13 +44,16 @@ const Project = (props) => {
         <>
             <div className="project-bar-container">
                 <div id="project-image-track" data-mouse-down-at="0" data-prev-percentage="0" data-percentage="0">
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
-                    <ProjectCard image="https://images.unsplash.com/photo-1685543905636-cdc396ded922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" />
+                    <ProjectCard image="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
+                        github="https://github.com/singhutsav5502/TodoCRUD" title="Todo CRUD app" />
+                    <ProjectCard image="https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80"
+                        github="https://github.com/singhutsav5502/React-SpotifyClone" title="React Spotify Clone" />
+                    <ProjectCard image="https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        github="https://github.com/singhutsav5502/react-expense-tracker" title="React Expense Tracker" />
+                    <ProjectCard image="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80"
+                        github="https://github.com/singhutsav5502/react-weather-forecast" title="Weather Forecast app" />
+                    <ProjectCard image="https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+                        github="https://github.com/singhutsav5502/react-tic-tac-toe" title="Tic Tac Toe" />
                 </div>
             </div>
         </>

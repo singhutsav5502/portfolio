@@ -153,10 +153,10 @@
     width: auto;
     color:var(--primary-text-color-dark);
     position: absolute;
-    left: 46%;
-    top: 91%;
+    left: 50%;
+    bottom:80px;
     text-align: center;
-    transform: translate(-50% -50%);
+    translate:-50% -50%;
     z-index: 22;
     opacity: 0.5;
     transition:0.3s all ease;

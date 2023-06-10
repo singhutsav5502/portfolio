@@ -76,7 +76,7 @@ function App() {
       .to(".TextSplit-content", {
         marginTop: "0%",
       }, 'start')
-
+  
 
   })
   return (
