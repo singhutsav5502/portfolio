@@ -5,6 +5,7 @@
     width: 100%;
     z-index: 24;
     overflow: hidden;
+    height: 500vh;
     background-color: var(--hero-back-color);
 }
 
@@ -17,7 +18,7 @@
     background-image: radial-gradient(rgba(61, 55, 55, 0.379) 9%, transparent 9%);
     background-position: 0% 0%;
     background-size: 5vmin 5vmin;
-    height: 500vh;
+    height: inherit;
     width: 100vw;
 
 }
