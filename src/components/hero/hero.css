@@ -146,7 +146,21 @@
 .hero-call-to-action:hover .hero-call-to-action2 {
     top: 0%;
 }
-
+.hero-tech-stack{
+    font-size:24px;
+    font-family: "Unbounded";
+    font-weight: 200;
+    width: auto;
+    color:var(--primary-text-color-dark);
+    position: absolute;
+    left: 46%;
+    top: 91%;
+    text-align: center;
+    transform: translate(-50% -50%);
+    z-index: 22;
+    opacity: 0.5;
+    transition:0.3s all ease;
+}
 .arrows {
     position: absolute;
     width: 60px;
@@ -157,12 +171,12 @@
     z-index: 24;
 }
 
-.arrows path {
+/* .arrows path {
     stroke: #000000;
     fill: transparent;
     stroke-width: 1px;
 
-}
+} */
 
 .arrows.dark path {
     stroke: #555555;
@@ -171,13 +185,12 @@
     transition: 0.2s all linear;
 }
 
-.arrows.dark:hover path {
+.arrows.dark:hover path{
     stroke: #a0a0a0;
     fill: transparent;
     stroke-width: 1px;
 
 }
-
 .dark {
     color: var(--primary-text-color-dark);
     text-shadow: 0px 16px 64px #45454539;
