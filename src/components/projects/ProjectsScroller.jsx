@@ -3,6 +3,7 @@ import './ProjectsScroller.css'
 import Project from './project'
 
 const ProjectsScroller = () => {
+    
     return (
         <>
             <div className="ProjectsScroller-container" id="ProjectsScroller">
@@ -13,7 +14,8 @@ const ProjectsScroller = () => {
                         </div>
                         <div id="TextSplit-center">
                             <div className="TextSplit-content">
-                                <h4> DOES IT WORK NOW!??? </h4>
+                                {/* <h4> DOES IT WORK NOW!??? </h4> */}
+                                <Project />
                             </div>
                         </div>
                         <div id="TextSplit-bottom">

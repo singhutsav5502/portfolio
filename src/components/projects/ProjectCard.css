@@ -1,0 +1,7 @@
+.project-image{
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: none;
+    object-position: 100% center;
+    border:1px solid white;
+}
