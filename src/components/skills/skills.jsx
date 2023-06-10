@@ -14,7 +14,7 @@ const Skills = () => {
                     <SkillCard title="CSS 3" logo="./CSS3.png">
                         {/* CSS is a style sheet language used for describing the presentation of a document written in a markup language. */}
                     </SkillCard>
-                    <SkillCard title="Javascript" logo="./JS.png">
+                    <SkillCard title="Javascript" logo="./JS.svg">
                         {/* HTML5 is a markup language used for structuring and presenting content on the World Wide Web. */}
                     </SkillCard>
                     <SkillCard title="React JS" logo="./React.png">
