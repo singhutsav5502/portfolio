@@ -1,0 +1,68 @@
+.ProjectsScroller-container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 24;
+    background-color: transparent;
+}
+#TextSplit-main{
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color:var(--primary-text-color-dark)
+}
+#TextSplit-top{
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+#TextSplit-center{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+}
+#TextSplit-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    overflow: hidden;
+}
+#TextSplit-main h1{
+   
+    font-family: "Unbounded";
+    font-size: 15em;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#TextSplit-top-h{
+    top:100% !important;
+    z-index: 24;
+}
+#TextSplit-bottom-h{
+    top:0% !important;
+    z-index: 24;
+}
+.TextSplit-content{
+    z-index: 24;
+    position: absolute;
+    margin-top:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: var(--hero-back-color); */
+    color:var(--primary-text-color-dark);
+    font-family: Lato;
+    font-size: 4vw;
+}

@@ -1,21 +1,6 @@
 import './skills.css';
 import SkillCard from './skillCard';
-import { useLayoutEffect } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
 const Skills = () => {
-    useLayoutEffect(() => {
-        gsap.to('.skillCard-container', {
-            scrollTrigger: {
-                trigger: '#hero',
-                start: '100% 80%',
-                end: "100% 82%",
-                scrub: 2,
-            },
-            opacity: 1
-        },'start');
-    })
     return (
         <>
 

@@ -1,22 +1,7 @@
-import { useLayoutEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+
 import './nav.css'
 const NavD = () => {
-    useLayoutEffect(() => {
 
-        gsap.to('.nav-container', {
-            scrollTrigger: {
-                trigger: '#hero',
-                start: "5% 0%",
-                end: '5% 2%',
-                scrub:2,
-                pin: false
-            },
-            top: "0%"
-        })
-    })
     return (
         <>
                 <div className="nav-container dark" >

@@ -10,7 +10,7 @@
     filter: blur(10px) url("#noise");
 
 }
-
+/* 
 #blob1,
 #blob2,
 #blob3 {
@@ -52,7 +52,7 @@
 
 .stop4 {
     stop-color: rgb(255, 179, 50);
-}
+} */
 
 .hero-container {
     background-repeat: no-repeat;
