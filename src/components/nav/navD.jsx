@@ -12,7 +12,7 @@ const NavD = () => {
                         <p>crafting immersive web experiences.</p>
                     </div>
                     <div className="nav-link-container dark">
-                        <a href="#"><p className='dark'>Projects,</p>  <span className="nav-link-line dark"></span></a>
+                        <a href="#ProjectsScroller"><p className='dark'>Projects,</p>  <span className="nav-link-line dark"></span></a>
 
                         <a href="#"><p className='dark'>About</p><span className="nav-link-line dark"></span></a>
                     </div>
