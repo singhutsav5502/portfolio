@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
             <section className="project-card">
                 <img src={props.image} alt="" className="project-image" draggable="false" />
                 <section className="project-image-description" draggable="false">
-                    <a href={props.github} ></a>
+                    <a href={props.github} ><img src="./logo.svg" alt="" /></a>
                     <p>{props.title}</p>
                 </section>
             </section>
