@@ -77,8 +77,15 @@ function App() {
         marginTop: "0%",
       }, 'start')
   
-
+      let screenWidth = window.innerWidth;
+      let projectTrack = document.getElementById("project-image-track");
+      if (screenWidth < 1023){
+        projectTrack.style.left = "5%";
+        projectTrack.style.display = "flex";
+        projectTrack.style.flexWrap="wrap";
+      }
   })
+  
   return (
     <>
 
