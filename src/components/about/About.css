@@ -25,11 +25,15 @@
     height: 30vw;
     opacity: 0.75;
     border-radius: 25px;
-    margin-bottom: 10%;
-    box-shadow: 0 8px 10px rgba(255, 255, 255, 0.14);
+    /* margin-bottom: 10%; */
+    transition: 0.3s all ease;
 
 }
-
+.about-left-container img:hover{
+    opacity: 0.85;
+    filter:grayscale(0.1);
+    box-shadow: 0 8px 10px rgba(255, 255, 255, 0.14);
+}
 .about-right-container {
     width: 50%;
     word-wrap: break-word;
@@ -44,4 +48,17 @@
 .about-para{
     text-align: left;
     font-size: 24px;
+}
+.about-icon-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+}
+.about-icons{
+    width: 2rem;
+}
+#linkedIn , #leetcode,#twitter{
+    
+    filter:invert(100%);
 }
