@@ -6,7 +6,7 @@ const NavD = () => {
         <>
                 <div className="nav-container dark" >
                     <div className="nav-logo dark">
-                        <h4>utsav</h4>
+                        <a href="#"><h4>utsav</h4></a>
                     </div>
                     <div className="nav-current-status dark">
                         <p>crafting immersive web experiences.</p>

@@ -73,3 +73,7 @@
 span.dark{
     color:white;
 }
+.nav-logo a , .nav-logo a:visited{
+    text-decoration: none;
+    color:var(--primary-text-color-dark)
+}
