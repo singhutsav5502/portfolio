@@ -1,3 +1,6 @@
+import './App.css'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useState, useLayoutEffect } from 'react'
 // import Nav from './components/nav/nav'
 import NavD from './components/nav/navD'
@@ -5,9 +8,7 @@ import NavD from './components/nav/navD'
 import HeroD from './components/hero/heroD'
 import Skills from './components/skills/skills'
 import ProjectsScroller from './components/projects/projectsScroller'
-import './App.css'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import About from './components/about/about'
 gsap.registerPlugin(ScrollTrigger)
 function App() {
   useLayoutEffect(() => {
