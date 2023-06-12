@@ -79,7 +79,7 @@ function App() {
       }, 'start')
       .to("#project-image-track",{
         left:"0%",
-      },'end')
+      },'start')
   
   })
   

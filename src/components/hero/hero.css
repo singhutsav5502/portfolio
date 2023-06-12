@@ -284,4 +284,7 @@
         width: 20rem;
         height: 2rem;
     }
+    .hero-tech-stack,.arrows{
+        display: none;
+    }
 }

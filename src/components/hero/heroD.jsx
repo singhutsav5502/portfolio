@@ -14,7 +14,7 @@ const HeroD = () => {
                         <h1 className="hero-title-2 dark">WEB DEVELOPER</h1>
                     </div>
                     <div className='hero-subtitle dark'>
-                        <p>  I bring ideas to life with a keen eye for design and a dedication to clean code, and turn them into pixel-perfect realities.</p>
+                        <p> I breathe life into ideas, blending a meticulous eye for design with an unwavering commitment to pristine code, transforming them into flawlessly executed pixel-perfect realities.</p>
                     </div>
                     <div className="hero-call-to-action-container dark">
                         <a href="mailto:singhutsavofficial@gmail.com" alt="" className="hero-call-to-action dark">hello@utsav.com  <p className="hero-call-to-action2 dark">Contact Me!</p></a>
