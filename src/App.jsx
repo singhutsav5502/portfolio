@@ -96,7 +96,7 @@ function App() {
         <HeroD />
         <Skills />
         <ProjectsScroller />
-        <HeroD />
+        <About />
         <div className="app-radial-overlay" id="blob"></div>
         <div id="app-blob-blur"></div>
       </div>

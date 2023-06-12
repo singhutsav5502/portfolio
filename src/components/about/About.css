@@ -1,0 +1,18 @@
+.about-container{
+    position: relative;
+    z-index:24;
+    background-color: transparent;
+    height: 100vh;
+    color:var(--primary-text-color-dark);
+    font-family:"Unbounded";
+    padding:0px var(--page-wide-margin) 0px var(--page-wide-margin);
+    display: flex;
+    width:90vw;
+}
+.about-left-container{
+    width: 50%;
+}
+.about-right-container{
+    width: 50%;
+    word-wrap: break-word;
+}

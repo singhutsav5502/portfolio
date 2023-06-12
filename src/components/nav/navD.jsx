@@ -14,7 +14,7 @@ const NavD = () => {
                     <div className="nav-link-container dark">
                         <a href="#ProjectsScroller"><p className='dark'>Projects,</p>  <span className="nav-link-line dark"></span></a>
 
-                        <a href="#"><p className='dark'>About</p><span className="nav-link-line dark"></span></a>
+                        <a href="#about"><p className='dark'>About</p><span className="nav-link-line dark"></span></a>
                     </div>
                     <div className="nav-mail-container dark">
                         <a href="mailto:singhutsavofficial@gmail.com"><p className='dark'>hello@utsav.com</p>
