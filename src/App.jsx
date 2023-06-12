@@ -77,6 +77,9 @@ function App() {
       .to(".TextSplit-content", {
         marginTop: "0%",
       }, 'start')
+      .to("#project-image-track",{
+        left:"0%",
+      },'end')
   
   })
   
