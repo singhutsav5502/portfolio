@@ -5,7 +5,7 @@ const About = ()=>{
         <>
         <div className="about-container" id="about">
             <div className="about-left-container">
-                <img src="" alt="" />
+                <img src="./aboutHero.jpg" alt="" />
             </div>
             <div className="about-right-container">
                 <h2 className="about-name">Hello there! I'm Utsav Singh.</h2>
