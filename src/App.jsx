@@ -78,7 +78,7 @@ function App() {
         marginTop: "0%",
       }, 'start')
       .to("#project-image-track",{
-        left:"0%",
+        left:"10%",
       },'start')
   
   })
