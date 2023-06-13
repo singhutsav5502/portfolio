@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className="skills-container-title"><p className="skills-container-title-p">SKILLS</p></div>
                 <div className="skills-flex-container">
                     {/* <div className="skills-grid-maker"> */}
-                    <SkillCard title="HTML 5" logo="./HTML5.png">
+                    <SkillCard title="HTML 5" logo="./HTML5C.png">
                         {/* HTML5 is a markup language used for structuring and presenting content on the World Wide Web. */}
                     </SkillCard>
                     <SkillCard title="CSS 3" logo="./CSS3.png">
