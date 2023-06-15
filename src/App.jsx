@@ -7,8 +7,8 @@ import NavD from './components/nav/navD'
 // import Hero from './components/hero/hero'
 import HeroD from './components/hero/heroD'
 import Skills from './components/skills/skills'
-import ProjectsScroller from './components/projects/projectsScroller'
-import About from './components/about/about'
+import ProjectsScroller from './components/projects/ProjectsScroller'
+import About from './components/about/About'
 gsap.registerPlugin(ScrollTrigger)
 function App() {
   useLayoutEffect(() => {
