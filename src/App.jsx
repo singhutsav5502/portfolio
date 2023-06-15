@@ -82,13 +82,13 @@ function App() {
       },'start')
   
   })
-  
+  const width = window.innerWidth;
   return (
     <>
 
       <div className="app-container">
         <div className="app-back" ></div>
-        <NavD />
+        {width>400?<NavD />:<></>}
         <HeroD />
         <Skills />
         <ProjectsScroller />

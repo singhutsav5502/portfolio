@@ -55,7 +55,7 @@ html {
     background: #555;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .title {
             font-size: 2rem !important;
     }
