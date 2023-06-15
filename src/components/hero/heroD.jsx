@@ -10,10 +10,10 @@ const HeroD = () => {
                 <div className="hero-back" ></div>
                 <div className="hero-container dark">
                     <div className="hero-title-container dark">
-                        <h1 className="hero-title dark">UTSAV SINGH</h1>
-                        <h1 className="hero-title-2 dark">WEB DEVELOPER</h1>
+                        <h1 className="hero-title dark title">UTSAV SINGH</h1>
+                        <h1 className="hero-title-2 dark title">WEB DEVELOPER</h1>
                     </div>
-                    <div className='hero-subtitle dark'>
+                    <div className='hero-subtitle dark subtitle'>
                         <p> I breathe life into ideas, blending a meticulous eye for design with an unwavering commitment to pristine code, transforming them into flawlessly executed pixel-perfect realities.</p>
                     </div>
                     <div className="hero-call-to-action-container dark">

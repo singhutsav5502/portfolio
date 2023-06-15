@@ -5,7 +5,7 @@ const Skills = () => {
         <>
 
             <div className="skills-container" id="skills">
-                <div className="skills-container-title"><p className="skills-container-title-p">SKILLS</p></div>
+                <div className="skills-container-title"><p className="skills-container-title-p title">SKILLS</p></div>
                 <div className="skills-flex-container">
                     {/* <div className="skills-grid-maker"> */}
                     <SkillCard title="HTML 5" logo="./HTML5C.png">

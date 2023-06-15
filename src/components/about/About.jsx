@@ -8,8 +8,8 @@ const About = () => {
                     <img src="./aboutHero.jpg" alt="" />
                 </div>
                 <div className="about-right-container">
-                    <h2 className="about-name">Hello there! I'm Utsav Singh.</h2>
-                    <p className="about-para">I'm a first-year B.Tech student at NSUT,also a frontend developer who loves creating visually stunning and user-friendly websites.</p>
+                    <h2 className="about-name title">Hello there! I'm Utsav Singh.</h2>
+                    <p className="about-para subtitle">I'm a first-year B.Tech student at NSUT,also a frontend developer who loves creating visually stunning and user-friendly websites.</p>
                     <div className="about-icon-container">
                         <a href="https://github.com/singhutsav5502" target="_blank"><img src="./logo.png" alt="" className="about-icons" /></a>
                         <a href="https://www.linkedin.com/in/utsav-work/" target="_blank"><img src="./linkedIn.svg" alt="" className="about-icons" id="linkedIn" /></a>

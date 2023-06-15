@@ -10,7 +10,7 @@ const ProjectsScroller = () => {
                 <div className="TextSplit-blur">
                     <div id="TextSplit-main">
                         <div id="TextSplit-top">
-                            <h1 id="TextSplit-top-h">PROJECTS</h1>
+                            <h1 id="TextSplit-top-h" className="title">PROJECTS</h1>
                         </div>
                         <div id="TextSplit-center">
                             <div className="TextSplit-content">
@@ -19,7 +19,7 @@ const ProjectsScroller = () => {
                             </div>
                         </div>
                         <div id="TextSplit-bottom">
-                            <h1 id="TextSplit-bottom-h">PROJECTS</h1>
+                            <h1 id="TextSplit-bottom-h" className="title">PROJECTS</h1>
                         </div>
                     </div>
                 </div>
