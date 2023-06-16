@@ -22,20 +22,56 @@ function App() {
         top: `${pageY}px`
       }, { duration: 3000, fill: "forwards" });
     }
+    if (width > 1180) {
+      // NAV SCROLL IN
+      gsap.to('.nav-container', {
+        scrollTrigger: {
+          trigger: '#hero',
+          start: "5% 0%",
+          end: '5% 2%',
+          scrub: 2,
+          pin: false
+        },
+        top: "0%"
+      })
 
-    // NAV SCROLL IN
-    gsap.to('.nav-container', {
-      scrollTrigger: {
-        trigger: '#hero',
-        start: "5% 0%",
-        end: '5% 2%',
-        scrub: 2,
-        pin: false
-      },
-      top: "0%"
-    })
+
+      // PROJECTS
+
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#ProjectsScroller",
+          start: "10% 0%",
+          end: "100% 80%",
+          // markers: true,
+          pinSpacing: true,
+          scrub: 2,
+          pin: true
+        }
+      })
+      tl
+        .to("#TextSplit-top", {
+          top: "-50%",
+        }, 'start')
+        .to("#TextSplit-bottom", {
+          bottom: "-50%",
+        }, 'start')
+        .to("#TextSplit-top-h", {
+          top: "80%",
+        }, 'start')
+        .to("#TextSplit-bottom-h", {
+          bottom: "-35%",
+        }, 'start')
+        .to(".TextSplit-content", {
+          marginTop: "0%",
+        }, 'start')
+        .to("#project-image-track", {
+          left: "10%",
+        }, 'start')
 
 
+
+    }
     // SKILL CARDS OPACITY
     let tl2 = gsap.timeline({
       scrollTrigger: {
@@ -49,39 +85,7 @@ function App() {
       opacity: 1
     });
 
-    // PROJECTS
 
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: "#ProjectsScroller",
-        start: "10% 0%",
-        end: "100% 80%",
-        // markers: true,
-        pinSpacing: true,
-        scrub: 2,
-        pin: true
-      }
-    })
-    tl
-      .to("#TextSplit-top", {
-        top: "-50%",
-      }, 'start')
-      .to("#TextSplit-bottom", {
-        bottom: "-50%",
-      }, 'start')
-      .to("#TextSplit-top-h", {
-        top: "80%",
-      }, 'start')
-      .to("#TextSplit-bottom-h", {
-        bottom: "-35%",
-      }, 'start')
-      .to(".TextSplit-content", {
-        marginTop: "0%",
-      }, 'start')
-      .to("#project-image-track",{
-        left:"10%",
-      },'start')
-  
   })
   const width = window.innerWidth;
   return (
@@ -89,10 +93,10 @@ function App() {
 
       <div className="app-container">
         <div className="app-back" ></div>
-        {width>1180?<NavD />:<></>}
+        {width > 1180 ? <NavD /> : <></>}
         <HeroD />
         <Skills />
-        {width>1180?<ProjectsScroller />:<ProjectsMobile />}
+        {width > 1180 ? <ProjectsScroller /> : <ProjectsMobile />}
         <About />
         <div className="app-radial-overlay" id="blob"></div>
         <div id="app-blob-blur"></div>
