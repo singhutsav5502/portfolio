@@ -9,6 +9,7 @@ import HeroD from './components/hero/heroD'
 import Skills from './components/skills/skills'
 import ProjectsScroller from './components/projects/ProjectsScroller'
 import About from './components/about/About'
+import ProjectsMobile from './components/projects/ProjectsMobile'
 gsap.registerPlugin(ScrollTrigger)
 function App() {
   useLayoutEffect(() => {
@@ -88,10 +89,10 @@ function App() {
 
       <div className="app-container">
         <div className="app-back" ></div>
-        {width>400?<NavD />:<></>}
+        {width>1180?<NavD />:<></>}
         <HeroD />
         <Skills />
-        <ProjectsScroller />
+        {width>1180?<ProjectsScroller />:<ProjectsMobile />}
         <About />
         <div className="app-radial-overlay" id="blob"></div>
         <div id="app-blob-blur"></div>

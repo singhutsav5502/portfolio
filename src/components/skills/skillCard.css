@@ -18,6 +18,7 @@
 @media(max-width:801px){
     .skillCard-container{
         height: 25vh;
+        width: 80vw;
     }
 }
 .skillCard-container:hover {

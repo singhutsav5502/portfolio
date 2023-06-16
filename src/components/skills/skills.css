@@ -13,12 +13,17 @@
     align-items: center;
     justify-content: center;
 }
-
-@media(max-width:801px) {
+@media(max-width:1180px) {
     .skills-flex-container {
         flex-wrap: wrap;
+        
     }
 
+}
+@media(max-width:450px){
+    .skills-flex-container{
+        flex-direction: column;
+    }
 }
 
 .skills-container-title {
@@ -29,7 +34,7 @@
     font-size: 48px;
     font-family: "Unbounded";
     color: var(--primary-text-color-dark);
-
+    margin-bottom:5%;
 }
 .skills-container-title-p{
     position: absolute;
